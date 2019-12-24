@@ -67,7 +67,7 @@
     </swiper>
   </view>
   <view class="weui-loadmore weui-loadmore_line" wx:if="{{goodsRecommend.length > 0 && activeCategoryId == 0}}">
-    <view class="weui-loadmore__tips weui-loadmore__tips_in-line">爆品推荐</view>
+    <view class="weui-loadmore__tips weui-loadmore__tips_in-line">推荐产品</view>
   </view>
   <view class="goods-container" wx:if="{{goodsRecommend.length > 0 && activeCategoryId == 0}}">
     <view class="goods-box" wx:for-items="{{goodsRecommend}}" wx:key="*this" bindtap="toDetailsTap" data-id="{{item.id}}">
@@ -81,9 +81,8 @@
       </view>
     </view>
   </view>
-  <ad unit-id="adunit-588264b3e2362e1e"></ad>
-  <view wx-if="{{kanjiaList.length > 0 && activeCategoryId == 0}}" class="weui-panel weui-panel_access" style='margin-top:0px;'>
-    <view class="weui-panel__hd">疯狂砍价</view>
+  <!-- <view wx-if="{{kanjiaList.length > 0 && activeCategoryId == 0}}" class="weui-panel weui-panel_access" style='margin-top:0px;'>
+    <view class="weui-panel__hd">砍价</view>
     <view class="weui-panel__bd">
       <view wx:for-items="{{kanjiaList}}" wx:key="id" class="weui-media-box weui-media-box_appmsg">
         <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
@@ -125,9 +124,8 @@
         </view>
       </view>
     </view>
-  </block>
+  </block> -->
 
-  <view class='space'></view>
   <view class="weui-loadmore weui-loadmore_line">
     <view class="weui-loadmore__tips weui-loadmore__tips_in-line">商品列表</view>
   </view>
