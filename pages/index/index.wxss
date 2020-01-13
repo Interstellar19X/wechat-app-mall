@@ -8,7 +8,7 @@
   clear: both;
 }
 .category-list{
-  width:150rpx;
+  width:187.5rpx;
   margin-top:20rpx;
   text-align: center;
   display: inline-block;
@@ -20,8 +20,8 @@
   overflow: hidden;
 }
 .category-imgbox{
-  width:80rpx;
-  height:80rpx;
+  width:150rpx;
+  height:150rpx;
 }
 .category-title{
   font-size: 24rpx;
@@ -29,19 +29,18 @@
   margin-top:10rpx;
 }
 
-
 .swiper-container{
   width: 750rpx;
   position: relative;  
 }
 .swiper_box {
   width: 750rpx;
-  height:250rpx;
+  height:300rpx;
 }
 
 swiper-item image {
   width: 750rpx;
-  height:250rpx;
+  height:300rpx;
 }
 ::-webkit-scrollbar {
   width: 0;
